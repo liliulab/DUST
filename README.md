@@ -21,9 +21,24 @@ wk.dir = 'example'
 output.prefix = 'dust.TCGA.CHOL'
 input.file.name = paste0(wk.dir, '/TCGA.CHOL.somatic.maf.gz'); input.compressed = T;
 output.folder = wk.dir
-N.sim = 1000; fp.cutoff.rate = 0.1; rare.mut.cutoff=3; cnt.cutoff.rate = NULL; cnt.mis.cutoff = cnt.non.cutoff = cnt.both.cutoff = 6;
+N.sim = 1000;
+fp.cutoff.rate = 0.1;
+rare.mut.cutoff=3;
+cnt.cutoff.rate = NULL;
+cnt.mis.cutoff = cnt.non.cutoff = cnt.both.cutoff = 6;
 steps = 1:7
-dust(input.file.name, output.folder, output.prefix, N.sim=N.sim, fp.cutoff.rate=fp.cutoff.rate, rare.mut.cutoff=rare.mut.cutoff, cnt.cutoff.rate=cnt.cutoff.rate, cnt.mis.cutoff=cnt.mis.cutoff, cnt.non.cutoff=cnt.non.cutoff, cnt.both.cutoff=cnt.both.cutoff, steps=steps)
+dust(
+  input.file.name,
+  output.folder,
+  output.prefix,
+  N.sim=N.sim,
+  fp.cutoff.rate=fp.cutoff.rate,
+  rare.mut.cutoff=rare.mut.cutoff,
+  cnt.cutoff.rate=cnt.cutoff.rate,
+  cnt.mis.cutoff=cnt.mis.cutoff,
+  cnt.non.cutoff=cnt.non.cutoff,
+  cnt.both.cutoff=cnt.both.cutoff,
+  steps=steps)
 ```
 
 # Precomputed results
