@@ -7,7 +7,7 @@ DUST is a R package that aggregates tumor somatic mutations by protein domains, 
 You can install the DUST package using one of the two following approaches:
 
 ``` 
-pak::pack('liliulab/dust')
+pak::pak('liliulab/dust')  ## preferred
 
 devtools::install_github('liliulab/dust')  ## deprecated
 
