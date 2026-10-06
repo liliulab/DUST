@@ -1,0 +1,25 @@
+Package: DUST
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Li", "Liu",
+      email = "liliu@asu.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: Domains Under Selection in Tumors.
+License: GNU General Public License
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.0.0
+Imports: 
+    pwalign,
+    seqinr,
+    stringr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 3.5)
