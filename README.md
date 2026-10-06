@@ -47,7 +47,8 @@ DUST analysis of TCGA whole-exome sequencing data of >10,000 tumors of 33 cancer
 
 # Reference
 
-DUST manuscript is currently under review in MBE
+DUST manuscript is currently under review in MBE.
+
 The preprint is available at bioRxiv https://www.biorxiv.org/content/10.64898/2026.05.31.729131v1
 
 # Contributors
